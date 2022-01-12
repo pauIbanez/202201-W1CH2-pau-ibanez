@@ -48,6 +48,8 @@ li {
   justify-content: space-evenly;
   height: 100%;
   margin-right: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-button {
@@ -110,8 +112,8 @@ li {
   justify-content: space-between;
   max-width: 1500px;
   align-items: flex-end;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 125px;
+  margin-bottom: 75px;
   z-index: 1;
 }
 
@@ -173,4 +175,40 @@ li {
 
 .cover h3 {
   font-size: 30px;
+}
+
+.button {
+  border-radius: 0 35px 35px 35px;
+  width: fit-content;
+  min-width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button--buy-now {
+  background-color: white;
+  border: 2px solid #ed6436;
+  height: 50px;
+}
+
+.button--buy-now:hover {
+  background-color: #ed6436;
+  color: white;
+  border-width: 2px solid #ed6436;
+}
+
+.button--view-all {
+  background-color: #ed6436;
+  height: 70px;
+  font-size: 25px;
+  color: white;
+}
+
+.button--view-all:hover {
+  background-color: white;
+  color: #ed6436;
+  border: 2px solid #ed6436;
 }
