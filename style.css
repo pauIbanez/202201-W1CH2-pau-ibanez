@@ -116,11 +116,11 @@ li {
   flex-direction: column;
 }
 
-.titles h2 {
+.titles h1 {
   color: #ed6436;
   font-size: 25px;
 }
 
-.titles h1 {
+.titles h2 {
   font-size: 50px;
 }
