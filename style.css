@@ -47,6 +47,7 @@ li {
   display: flex;
   justify-content: space-evenly;
   height: 100%;
+  margin-right: 10px;
 }
 
 .nav-button {
@@ -101,4 +102,25 @@ li {
 
 .drpd-content a:hover {
   color: #ed6436;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin-top: 50px;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+}
+
+.titles h2 {
+  color: #ed6436;
+  font-size: 25px;
+}
+
+.titles h1 {
+  font-size: 50px;
 }
