@@ -105,10 +105,13 @@ li {
 }
 
 .header {
+  margin: 0 auto;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  max-width: 1500px;
   align-items: flex-end;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .titles {
@@ -123,4 +126,33 @@ li {
 
 .titles h1 {
   font-size: 50px;
+}
+
+.pets-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pet {
+  width: 436px;
+  height: 527px;
+  overflow: hidden;
+  border-radius: 40px;
+  position: relative;
+}
+
+.cover {
+  display: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pet:hover .cover {
+  display: flex;
 }
