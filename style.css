@@ -59,11 +59,23 @@ li {
   display: none;
   position: absolute;
   top: var(--header-height);
+  left: 0;
+  min-width: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   flex-direction: column;
-  gap: 10px;
 }
 
 .dropdown:hover .drpd-content {
   display: flex;
+}
+
+.drpd-content a {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.drpd-content a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
 }
