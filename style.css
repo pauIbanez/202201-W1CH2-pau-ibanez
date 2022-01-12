@@ -110,8 +110,9 @@ li {
   justify-content: space-between;
   max-width: 1500px;
   align-items: flex-end;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 50px;
+  z-index: 1;
 }
 
 .titles {
@@ -150,9 +151,26 @@ li {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .pet:hover .cover {
   display: flex;
+}
+
+.cover {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: white;
+}
+
+.cover h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.cover h3 {
+  font-size: 30px;
 }
