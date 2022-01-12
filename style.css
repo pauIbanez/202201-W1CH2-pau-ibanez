@@ -11,9 +11,25 @@ li {
   list-style: none;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .main-nav {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
   height: 100px;
   box-shadow: 0px 0 5px;
+  /* background-color: green; */
+}
+
+.page-logo {
+  max-height: 90px;
+  max-width: 90px;
+  margin-left: 10px;
+}
+
+.nav-menu {
+  display: flex;
 }
