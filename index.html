@@ -4,80 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="img/logo2.png" type="image/x-icon" />
+    <link rel="stylesheet" href="imported/font-awesome.min.css" />
+    <link rel="shortcut icon" href="img/logo@75x75.png" type="image/x-icon" />
     <title>Challenge 3</title>
   </head>
   <body>
     <header class="main-nav">
-      <img src="img/logo2.png" alt="Logo of dog paw" class="page-logo" />
+      <img src="img/logo@75x75.png" alt="Logo of dog paw" class="page-logo" />
       <nav class="nav-menu">
-        <ul>
-          <li>button.</li>
-          <li>
-            <div class="dropdown">
-              <button class="menuBut">Live Demo</button>
-              <img src="" alt="" class="drpdArrow" />
-              <div class="drpdCont">
-                <ul>
-                  <li>
-                    <a
-                      href="http://"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="http://"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="http://"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="dropdown">
-              <button class="menuBut">Live Demo Blocks</button>
-              <img src="" alt="" class="drpdArrow" />
-              <div class="drpdCont">
-                <ul>
-                  <li>
-                    <a
-                      href="http://"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="http://"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="http://"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </li>
-        </ul>
+        <a class="nav-button nav-button--normal" href="#home">Home</a>
+        <div class="nav-button nav-button--normal dropdown">
+          Live Demo
+          <i class="fa fa-caret-down"></i>
+          <div class="drpd-content">
+            <a href="#">Pets Boarding Services</a>
+            <a href="#">Pets Toys and Food Shop</a>
+            <a href="#">Pets Training School</a>
+          </div>
+        </div>
+        <div class="nav-button nav-button--normal dropdown">
+          Live Demo Blocks
+          <i class="fa fa-caret-down"></i>
+          <div class="drpd-content">
+            <a href="#">Pets Boarding Services</a>
+            <a href="#">Pets Toys and Food Shop</a>
+            <a href="#">Pets Training School</a>
+          </div>
+        </div>
+        <a class="nav-button button button--buy-now" href="#home">BUY NOW</a>
       </nav>
-      <button class="button button--buy-now">BUY NOW</button>
     </header>
     <header class="main-title">
       <h2 class="subtitle">PET ACTIVITIES</h2>
