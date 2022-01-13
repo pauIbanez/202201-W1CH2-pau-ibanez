@@ -155,7 +155,6 @@ li {
   align-items: flex-end;
   margin-top: 125px;
   margin-bottom: 75px;
-  margin: 125px 50px 75px 50px;
 }
 
 .titles {
@@ -178,8 +177,6 @@ li {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-left: 50px;
-  margin-right: 50px;
   gap: 50px;
 }
 
@@ -288,7 +285,7 @@ li {
     align-items: center;
     flex-direction: column;
     gap: 50px;
-    margin: 125px 10px 75px 10px;
+    margin: 125px 20px 75px 20px;
   }
 
   .pet {
